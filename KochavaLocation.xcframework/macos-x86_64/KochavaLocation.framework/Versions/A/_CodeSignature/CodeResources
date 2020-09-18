@@ -4,35 +4,15 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/KVALocationProduct.h</key>
+		<key>Resources/Info.plist</key>
 		<data>
-		19JocEqBdOswfBNPYNCl/CLU1n0=
-		</data>
-		<key>Headers/KVALocationServices.h</key>
-		<data>
-		dOsNqf10HpS95s+vnc/CqaMLSB8=
-		</data>
-		<key>Headers/KochavaLocation.h</key>
-		<data>
-		OUqHefuFy0oGni3D7f6Qxxahrec=
-		</data>
-		<key>Info.plist</key>
-		<data>
-		92DblOYYOvddEwoMZ5MDM1pA11M=
-		</data>
-		<key>Modules/module.modulemap</key>
-		<data>
-		NWVOfqJtNutNDtFmt/I3c08nVxU=
+		hH+ml34eddDxg4eOcRNOeUU5ozk=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>Headers/KVALocationProduct.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			19JocEqBdOswfBNPYNCl/CLU1n0=
-			</data>
 			<key>hash2</key>
 			<data>
 			v8pQr7h8NPByUOD5d5tVc/fUwrQrAJDP4U0OUyflBv8=
@@ -40,10 +20,6 @@
 		</dict>
 		<key>Headers/KVALocationServices.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			dOsNqf10HpS95s+vnc/CqaMLSB8=
-			</data>
 			<key>hash2</key>
 			<data>
 			ut/Zj9ji0aT4ms+P1BDDlfEF+j3BeBvdkY8FBxJxH/M=
@@ -51,10 +27,6 @@
 		</dict>
 		<key>Headers/KochavaLocation.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			OUqHefuFy0oGni3D7f6Qxxahrec=
-			</data>
 			<key>hash2</key>
 			<data>
 			gBVTOWeLdMJV5k43KP0jr30g6fIA7r6RbiAQ4LH6Ffg=
@@ -62,35 +34,38 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			NWVOfqJtNutNDtFmt/I3c08nVxU=
-			</data>
 			<key>hash2</key>
 			<data>
 			LrGnP990pTfsDyjGAgJ7WsSTm/nIW/EodCW93xVyLDM=
 			</data>
 		</dict>
+		<key>Resources/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TVI4BUhfEdlOgrcU29hVD1R2hlePC/sWN5eVjwZoIK0=
+			</data>
+		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>
-		<key>^.*</key>
+		<key>^Resources/</key>
 		<true/>
-		<key>^.*\.lproj/</key>
+		<key>^Resources/.*\.lproj/</key>
 		<dict>
 			<key>optional</key>
 			<true/>
 			<key>weight</key>
 			<real>1000</real>
 		</dict>
-		<key>^.*\.lproj/locversion.plist$</key>
+		<key>^Resources/.*\.lproj/locversion.plist$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
 		</dict>
-		<key>^Base\.lproj/</key>
+		<key>^Resources/Base\.lproj/</key>
 		<dict>
 			<key>weight</key>
 			<real>1010</real>
@@ -112,27 +87,15 @@
 			<key>weight</key>
 			<real>2000</real>
 		</dict>
+		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
+		<dict>
+			<key>nested</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
 		<key>^.*</key>
 		<true/>
-		<key>^.*\.lproj/</key>
-		<dict>
-			<key>optional</key>
-			<true/>
-			<key>weight</key>
-			<real>1000</real>
-		</dict>
-		<key>^.*\.lproj/locversion.plist$</key>
-		<dict>
-			<key>omit</key>
-			<true/>
-			<key>weight</key>
-			<real>1100</real>
-		</dict>
-		<key>^Base\.lproj/</key>
-		<dict>
-			<key>weight</key>
-			<real>1010</real>
-		</dict>
 		<key>^Info\.plist$</key>
 		<dict>
 			<key>omit</key>
@@ -146,6 +109,37 @@
 			<true/>
 			<key>weight</key>
 			<real>20</real>
+		</dict>
+		<key>^Resources/</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^Resources/.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^Resources/.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>1100</real>
+		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
+		</dict>
+		<key>^[^/]+$</key>
+		<dict>
+			<key>nested</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
 		</dict>
 		<key>^embedded\.provisionprofile$</key>
 		<dict>
