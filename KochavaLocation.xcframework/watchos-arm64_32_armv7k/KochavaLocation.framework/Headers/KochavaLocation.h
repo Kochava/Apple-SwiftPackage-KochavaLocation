@@ -23,6 +23,7 @@
 
 #import <KochavaLocation/KVALocationProduct.h>
 #import <KochavaLocation/KVALocationServices.h>
+#import <KochavaLocation/KVALocationServicesProtocol.h>
 
 
 

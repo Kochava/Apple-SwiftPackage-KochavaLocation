@@ -10,15 +10,19 @@
 		</data>
 		<key>Headers/KVALocationServices.h</key>
 		<data>
-		Aa0c2qdIYnNkyviOhaswZvyPrLw=
+		2JNHF/+XJYzirZOg7z5v+LsDvN4=
+		</data>
+		<key>Headers/KVALocationServicesProtocol.h</key>
+		<data>
+		GWnW9F+nx1EtXPR9d9FoDG5jQQ4=
 		</data>
 		<key>Headers/KochavaLocation.h</key>
 		<data>
-		oDikDE/FvX+WWIiZKBlHU8NcT/Q=
+		pD+csghJChARgp0ENnarqIrScx0=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		NovUYjRaoMepK3R7bMCatbS5/J4=
+		Uhb6I0APu9BrjzbndCQT0u91oaQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -42,22 +46,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Aa0c2qdIYnNkyviOhaswZvyPrLw=
+			2JNHF/+XJYzirZOg7z5v+LsDvN4=
 			</data>
 			<key>hash2</key>
 			<data>
-			qKgZDz/LTsQdoOq35OrlL18NCIktRad4+PBIdD74Qkk=
+			vn/pnVv4zHHWAgJbZ9/EKOMROWjpO7BfsNANdUHnweE=
+			</data>
+		</dict>
+		<key>Headers/KVALocationServicesProtocol.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GWnW9F+nx1EtXPR9d9FoDG5jQQ4=
+			</data>
+			<key>hash2</key>
+			<data>
+			LMtPYNWTI4Ganj5lr/joWt/FolmNWscvedu36mMqFn8=
 			</data>
 		</dict>
 		<key>Headers/KochavaLocation.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oDikDE/FvX+WWIiZKBlHU8NcT/Q=
+			pD+csghJChARgp0ENnarqIrScx0=
 			</data>
 			<key>hash2</key>
 			<data>
-			Vs6IyTBHVv6QYMgnjl8eXyHzvrHjc+ZLASy/or4qmrI=
+			NEiosaOL5iGcM8l5ZlZhTe2aQ99E33RssTeOzLnIggU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
