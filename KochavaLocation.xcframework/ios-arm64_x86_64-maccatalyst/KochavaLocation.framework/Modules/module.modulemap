@@ -1,6 +1,0 @@
-framework module KochavaLocation {
-  umbrella header "KochavaLocation.h"
-
-  export *
-  module * { export * }
-}
