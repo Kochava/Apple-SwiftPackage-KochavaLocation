@@ -13,14 +13,25 @@
 
 
 
+#pragma mark - DEFINE
+
+
+
+#define KOCHAVA_FRAMEWORK
+
+
+
 #pragma mark - IMPORT
 
 
 
+#pragma mark System
 #import <Foundation/Foundation.h>
 
+#pragma mark KochavaCore
 #import <KochavaCore/KochavaCore.h>
 
+#pragma mark KochavaLocation
 #import <KochavaLocation/KVALocationProduct.h>
 #import <KochavaLocation/KVALocationServices.h>
 #import <KochavaLocation/KVALocationServicesProtocol.h>
